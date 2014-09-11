@@ -34,7 +34,7 @@ struct iPhone;
 
 impl Phone for iPhone {
     fn call(&self) {
-        println("Look! I'm calling on an iPhone!");
+        println!("Look! I'm calling on an iPhone!");
     }
 }
 
@@ -42,7 +42,7 @@ struct iPad;
 
 impl Tablet for iPad {
     fn play_games(&self) {
-        println("Just playing some games on my iPad.");
+        println!("Just playing some games on my iPad.");
     }
 }
 
@@ -70,7 +70,7 @@ struct Nexus4;
 
 impl Phone for Nexus4 {
     fn call(&self) {
-        println("Look! I'm calling on a Nexus 4!");
+        println!("Look! I'm calling on a Nexus 4!");
     }
 }
 
@@ -78,7 +78,7 @@ struct Nexus10;
 
 impl Tablet for Nexus10 {
     fn play_games(&self) {
-        println("Just playing some games on my Nexus 10.");
+        println!("Just playing some games on my Nexus 10.");
     }
 }
 
